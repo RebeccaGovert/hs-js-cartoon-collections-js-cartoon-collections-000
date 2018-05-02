@@ -20,8 +20,9 @@ function longPlaneteerCalls(words) {
     if (words[i].length > 4) {
       return true;
     }
-    }
+    } else {
   return false;
+}
 }
 
 function findTheCheese (foods) {
@@ -30,7 +31,8 @@ function findTheCheese (foods) {
         foods[i] === "gouda" ||
         foods[i] === "camembert") {
           return foods[i];
-        }
-  }
+        }        
+        } 
   return "no cheese!";
 }
+
