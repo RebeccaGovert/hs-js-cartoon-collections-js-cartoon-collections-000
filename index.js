@@ -20,9 +20,10 @@ function longPlaneteerCalls(words) {
     if (words[i].length > 4) {
       return true;
     }
+    }
   return false;
 }
-}
+
 
 function findTheCheese (foods) {
   for (var i=0; i<foods.length; i++) {
